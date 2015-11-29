@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Desktop\juego2d\Assets\script\instanciar.cs">
     <Files>
       <File FileName="..\..\..\Desktop\juego2d\Assets\script\instanciar.cs" Line="17" Column="13" />
-      <File FileName="Assets\scrips\Generador.cs" Line="17" Column="2" />
+      <File FileName="Assets\scrips\Generador.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
