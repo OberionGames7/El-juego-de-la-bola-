@@ -14,7 +14,7 @@ public class Generador : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		//this.transform.position.x [Random.Range (-5f, 5f)];
 	}
 
 	void Generar(){
