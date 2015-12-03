@@ -15,7 +15,7 @@ public class destruir : MonoBehaviour {
 	void OnCollisionStay2D (Collision2D other){
 		if (other.gameObject.tag == "enemigo") {
 			Destroy (this.gameObject); //especificar que objeto quiero destruir
-			Application.LoadLevel (Application.loadedLevel); //para recargar el nivel del principio
+			//Application.LoadLevel (Application.loadedLevel); //para recargar el nivel del principio
 		}
 	}
 	}

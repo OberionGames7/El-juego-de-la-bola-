@@ -12,4 +12,9 @@ public class plataformaMovimiento : MonoBehaviour {
 	void Update () {
 		this.transform.Translate (Vector3.up * this.velocidad * Time.deltaTime, Space.World);
 	}
+	void OnCollisionEnter2D (Collision2D other){
+		if (other.gameObject.tag == "enemigo") {
+			Destroy (this.gameObject); 
+		}	
+	}
 }
